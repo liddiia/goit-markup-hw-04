@@ -299,7 +299,7 @@ body {
 /*===========Social icons==============*/
 .social {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 24px;
 }
 .social-link {
@@ -317,6 +317,7 @@ body {
 }
 .social-icon {
 }
+
 /*===================PORTFOLIO====================*/
 .portfolio-section {
   padding: 96px 0 120px;
@@ -386,7 +387,32 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
-
+/*================Customers=============*/
+.castomers {
+  background-color: var(--color-white);
+  padding: 120px 0;
+}
+.customers-cont {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+}
+.customers-box {
+  border: 1px solid #8e8f99;
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  fill: var(--color-light-slate);
+}
+.client-icons {
+  
+}
+.customers-box:hover,
+.customers-box:focus {
+  fill:var(--color-ocean);
+  }
+}
 /*=============footers==================*/
 
 .footer-container {
