@@ -127,9 +127,23 @@ body {
 
 /*===================Section1===================*/
 /* =====Titel-1======== */
+
+.titel-items {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-1.jpg);
+  background-color: var(--color-grey);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .titel {
   padding: 188px 0;
-  background-color: var(--color-grey);
 }
 .text-titel {
   text-align: center;
@@ -153,6 +167,7 @@ body {
   margin-top: 48px;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button-studio {
   font-family: "Roboto", sans-serif;
@@ -186,7 +201,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .features-container {
   display: flex;
   align-items: center;
@@ -211,6 +225,11 @@ body {
   color: var(--color-slate);
 }
 
+.feautures-icon {
+  display: flexbox;
+  background: var(--color-cloud);
+  border-radius: 4px;
+}
 /*==============section 3 ================*/
 .doing {
   padding-bottom: 120px;
@@ -243,6 +262,8 @@ body {
 .card-cont {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-container {
@@ -273,6 +294,28 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
   text-align: center;
+  margin-bottom: 8px;
+}
+/*===========Social icons==============*/
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  justify-content: space-between;
+}
+.team-container .social-link:hover,
+.team-container .social-link:focus {
+  background-color: var(--color-ocean);
+}
+.social-icon {
 }
 /*===================PORTFOLIO====================*/
 .portfolio-section {
@@ -347,11 +390,13 @@ body {
 /*=============footers==================*/
 
 .footer-container {
+  display: flex;
+
   margin-right: auto;
   margin-left: auto;
 }
 .footer-container-text {
-  margin-right: auto;
+  margin-right: 120px;
 }
 .footer-background {
   background-color: var(--color-navy-blue);
@@ -373,4 +418,20 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-cloud);
   max-width: 264px;
+}
+.soc-media-titel {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+.soc-media {
+  display: block;
+}
+.footer-container .social-link:hover,
+.footer-container .social-link:focus {
+  background-color: var(--color-green);
 }
