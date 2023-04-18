@@ -421,6 +421,8 @@ body {
   justify-content: space-between;
 }
 .customers-box {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 .client-icons {
   display: flex;
@@ -446,12 +448,15 @@ body {
 
 .footer-container {
   display: flex;
-
+  align-items: baseline;
   margin-right: auto;
   margin-left: auto;
 }
 .footer-container-text {
   margin-right: 120px;
+}
+.logo-paragraf {
+  gap: 120px;
 }
 .footer-background {
   background-color: var(--color-navy-blue);
@@ -482,6 +487,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-white);
+  margin-bottom: 16px;
 }
 .soc-media {
   display: block;
@@ -489,4 +495,7 @@ body {
 .footer-container .social-link:hover,
 .footer-container .social-link:focus {
   background-color: var(--color-green);
+}
+.footer-container .social {
+  gap: 16px;
 }
