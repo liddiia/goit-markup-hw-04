@@ -129,7 +129,7 @@ body {
 /* =====Titel-1======== */
 
 .titel-items {
-  max-width: 1140px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
@@ -252,7 +252,7 @@ body {
 .titels {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -355,7 +355,7 @@ body {
   background-color: var(--color-ocean);
   cursor: pointer;
   border: 1px solid transparent;
-}
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
 /*==========Prodjects-portfolio============*/
 .prodject-list {
   display: flex;
@@ -365,7 +365,14 @@ body {
 }
 
 .proj-point {
-  width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
+}
+.proj-point-link{
+  display: block;
+}
+.proj-point-link:hover,
+.proj-point-link:focus{
+  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 .titel-par {
   padding: 32px 16px;
