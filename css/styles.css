@@ -456,7 +456,7 @@ body {
   margin-right: 120px;
 }
 .logo-paragraf {
-  gap: 120px;
+  margin-right: 120px;
 }
 .footer-background {
   background-color: var(--color-navy-blue);
