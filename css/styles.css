@@ -455,10 +455,9 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.footer-container-text {
+
+.log-paragraf {
   margin-right: 120px;
-}
-.logo-paragraf {
 }
 .footer-background {
   background-color: var(--color-navy-blue);
