@@ -29,7 +29,8 @@
 h1,
 h2,
 h3,
-p {
+p,
+ul {
   margin: 0;
 }
 ul {
@@ -313,8 +314,8 @@ body {
 .social {
   display: flex;
   align-items: center;
-  gap: 24px;
   justify-content: center;
+  gap: 24px;
 }
 .social-link {
   display: flex;
