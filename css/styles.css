@@ -423,10 +423,11 @@ body {
   align-items: center;
   gap: 24px;
   justify-content: space-between;
+  height: 88px;
 }
 .customers-box {
   width: calc((100% - 120px) / 6);
-  height: 88px;
+  height: 100%;
 }
 .client-icons {
   display: flex;
