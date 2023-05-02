@@ -225,14 +225,13 @@ body {
 /*============Modal Window===============*/
 
 /*============ Modal Window ==========*/
-/* Overlay 
-.overlay {
+/* Overlay */
+.bacdrop {
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 30%;
-  /* NAVY BLUE modal
   background: rgba(46, 47, 66, 0.4);
 }
 
@@ -249,26 +248,39 @@ body {
 }
 .modal-button {
   display: block;
+  align-items: center;
+  justify-content: center;
+
   position: absolute;
   top: 24px;
   right: 24px;
+
   width: 24px;
   height: 24px;
+
   background: var(--color-cornflower);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+
+  /*  Set transition values  */
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--color-navy-blue);
 }
-/*
+
 .modal-button:focus,
 .modal-button:hover {
   fill: var(--color-white);
   background: var(--color-ocean);
 }
-.modal-icon {
-  fill: var(--color-navy-blue);
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
-*/
+
 /*===============section 2 studio=================*/
 .feautures {
   padding-top: 120px;
