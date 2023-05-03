@@ -99,6 +99,9 @@ body {
   height: 4px;
   border-radius: 2px;
 }
+.carrent {
+  color: var(--color-ocean);
+}
 .text-nav.carrent::after,
 .text-nav:focus::after,
 .text-nav:hover::after {
@@ -247,7 +250,7 @@ body {
   border-radius: 4px;
 }
 .modal-button {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -418,7 +421,7 @@ body {
   justify-content: center;
   fill: var(--color-cloud);
   /*--transformation--*/
-  transition-property: background-color, color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -581,7 +584,7 @@ body {
   fill: var(--color-light-slate);
   color: var(--color-light-slate);
   /*--transformation--*/
-  transition-property: background-color, color, border-color, fill;
+  transition-property: color, border-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
